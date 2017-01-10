@@ -2,7 +2,7 @@
  
 int main()
 {
-  int size, array[100], i, d, temp ;
+  int n, array[100], i, d, temp ;
  
   printf("Enter number of elements\n");
   scanf("%d", &n);
@@ -27,8 +27,8 @@ int main()
  
   printf("Sorted list \n");
  
-  for (c = 0; c <= n - 1; c++) {
-    printf("%d\n", array[c]);
+  for (i = 0; i <= n - 1; i++) {
+    printf("%d\n", array[i]);
   }
  
   return 0;
